@@ -6,3 +6,4 @@
 - [Практична робота №2](https://vanichka123.github.io/pr2/)
 - [Практична робота №3](https://vanichka123.github.io/pr3/)
 - [Практична робота №4](https://vanichka123.github.io/pr4/)
+- [Практична робота №5](https://vanichka123.github.io/pr5/)

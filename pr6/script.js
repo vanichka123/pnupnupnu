@@ -23,10 +23,22 @@ class Rectangle extends Square {
     super(a);
     this.b = b;
   }
+  get width() {
+    return this.b;
+  }
+  set width(val) {
+    this.b = val;
+  }
+  get length() {
+    return this.a;
+  }
+  set length(val) {
+    this.a = val;
+  }
   static help() {
     console.log("Прямокутник - геометрична фігурочка.");
   }
-  length() {
+  perimeter() {
     return 2 * (this.a + this.b);
   }
   square() {
@@ -35,7 +47,7 @@ class Rectangle extends Square {
   info() {
     console.log("Довжина прямокутника: ", this.a);
     console.log("Ширина прямокутника: ", this.b);
-    console.log("Довжина: ", this.length());
+    console.log("Периметр: ", this.perimeter());
     console.log("Площа: ", this.square());
   }
 }

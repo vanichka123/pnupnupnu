@@ -10,6 +10,10 @@
 - [Практична робота №6](https://vanichka123.github.io/pr6/)
 - [Практична робота №7](https://vanichka123.github.io/pr7/)
 - [Практична робота №8](https://vanichka123.github.io/pr8/)
+- [Практична робота №9](https://vanichka123.github.io/pr9/)
+- [Практична робота №10](https://vanichka123.github.io/pr10/)
+- [Практична робота №11](https://vanichka123.github.io/pr11/)
+- [Практична робота №12](https://vanichka123.github.io/pr12/)
 
 - [Контрольна робота №1](https://vanichka123.github.io/kr1/)
 

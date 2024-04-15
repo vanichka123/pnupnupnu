@@ -14,6 +14,7 @@
 - [Практична робота №10](https://vanichka123.github.io/pr10/)
 - [Практична робота №11](https://vanichka123.github.io/pr11/)
 - [Практична робота №12](https://vanichka123.github.io/pr12/)
+- [Практична робота №13](https://vanichka123.github.io/pr13/)
 
 - [Контрольна робота №1](https://vanichka123.github.io/kr1/)
 - [Контрольна робота №2](https://vanichka123.github.io/kr2/)

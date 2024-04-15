@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PR 13</title>
+    <style>
+        #container {
+            position: relative;
+            width: 100%;
+            height: 700px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #square {
+            display: none;
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: #d1b8b8;
+            cursor: pointer;
+        }
+
+        #settings {
+            margin-top: 20px;
+        }
+
+        #score,
+        #timer {
+            display: none;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Практична робота No13 Пищ Іван Васильович.</h1>
+    <div id="container">
+        <div id="square"></div>
+        <div id="settings">
+            <label for="color">Select color:</label>
+            <select id="color">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+            </select>
+            <label for="difficulty">Select difficulty:</label>
+            <select id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <button id="start_btn">Start Game</button>
+        </div>
+        <div id="score">Score: <span id="score_val">0</span></div>
+        <div id="timer">Time Left: <span id="time_left"></span></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

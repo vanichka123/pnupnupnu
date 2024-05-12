@@ -18,4 +18,5 @@
 
 - [Контрольна робота №1](https://vanichka123.github.io/kr1/)
 - [Контрольна робота №2](https://vanichka123.github.io/kr2/)
+- [Контрольна робота №3](https://vanichka123.github.io/kr3/)
 

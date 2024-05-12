@@ -8,7 +8,7 @@ let timer_interval;
 let board_size = 5;
 let moves = 0;
 let levels = [];
-let currentLevel = 0;
+let current_lvl = 0;
 
 fetch("levels.json")
   .then((response) => response.json())
@@ -29,19 +29,18 @@ function start_game() {
   moves = 0;
   moves_display.textContent = moves;
 
-  load_level(currentLevel);
-
-  timer_display.textContent = 0;
+  load_level(current_lvl);
   start_timer();
 }
 
 function new_game() {
-  currentLevel = (currentLevel + 1) % levels.length;
-  load_level(currentLevel);
+  current_lvl = (current_lvl + 1) % levels.length;
+  load_level(current_lvl);
 
   moves = 0;
   moves_display.textContent = moves;
-  timer_display.textContent = 0;
+
+  start_timer();
 }
 
 function load_level(level) {
@@ -92,6 +91,9 @@ function check_win(matrix) {
 }
 
 function start_timer() {
+  clearInterval(timer_interval);
+  timer_display.textContent = 0;
+
   let seconds = 0;
   timer_interval = setInterval(() => {
     seconds++;
